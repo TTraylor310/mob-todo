@@ -83,12 +83,12 @@ const Example = () => {
     </Center>;
 };
 
-    export default () => {
-        return (
-          <NativeBaseProvider>
-            <Center flex={1} px="3">
-                <Example />
-            </Center>
-          </NativeBaseProvider>
-        );
-    };
+export default () => {
+    return (
+      <NativeBaseProvider>
+        <Center flex={1} px="3">
+            <Example />
+        </Center>
+      </NativeBaseProvider>
+    );
+};
